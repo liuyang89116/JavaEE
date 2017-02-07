@@ -13,4 +13,14 @@
         <servlet-name>FirstServlet</servlet-name>
         <url-pattern>/first</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LifeDemo</servlet-name>
+        <servlet-class>com.yang.c_life.LifeDemo</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LifeDemo</servlet-name>
+        <url-pattern>/LifeDemo</url-pattern>
+    </servlet-mapping>
 </web-app>
